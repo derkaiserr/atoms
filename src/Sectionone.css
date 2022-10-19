@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Koulen&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@keyframes levitating{
+0%{
+    transform: translateY(0.25rem);
+}
+
+   
+    60%{
+        transform: translateY(-0.1rem);
+    }
+
+ 
+    100%{
+        transform: translateY(0.25rem);
+    }
+
+    
+}
+
+.first, .second, .third{
+    padding: 2rem;
+    align-items: center;
+    margin: 2rem 4rem;
+    border-radius: 24px;
+}
+
+.levitate{
+    animation: levitating 3.7s infinite ease-in-out alternate;
+    /* animation-delay: 0.3s; */
+}
+.first{
+    background: #F1F1F1;
+    display: flex;
+    margin: 5rem 4rem 2rem;
+   
+}
+
+.comfort{
+    font-family: 'Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+
+}
+
+.first > div p{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    
+    text-align: center;
+    color: #1A1919;
+}
+.first > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.first > div button{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+color: #173003;
+
+padding: 20px 48px;
+margin: auto;
+border: none;
+
+background: #CBF86D;
+border-radius: 40px;
+
+}
+
+.second{
+    background: #EDFCCD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem 10rem 3rem;
+    gap: 3rem;
+}
+.second > p{
+    font-family: 'Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* or 125% */
+
+text-align: center;
+
+color: #222222;
+}
+
+.second .images{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    padding: 2rem 0 2rem;
+}
+
+.the-best{
+    width: 318px;
+height: 80px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+padding: 0 0 0 4rem;
+color: #222222;
+}
+
+.third{
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    color: #222222;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+.third img{
+    width: 60%;
+}
+
+.whole{
+    font-family: 'Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 40px;
+/* or 83% */
+
+
+}
+.midsole{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+
+}
+
+.copper, .tie{
+    font-family: 'Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 40px;
+/* or 83% */
+
+margin: 2rem 0 0;
+color: #6A6A6A;
+}
+

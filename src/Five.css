@@ -1,0 +1,135 @@
+.more-than-a-woman{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    margin:  4rem;
+}
+.more-than-a-woman img{
+    border-radius: 30px;
+}
+
+.read{
+    
+font-family: 'Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 50px;
+margin: 0 0 4.8rem;
+}
+
+.from{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+}
+
+.more-than-a-woman button{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 23px; */
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #173003;
+    
+    padding: 20px 48px;
+    margin: 4.8rem 0 auto;
+    border: none;
+    
+    background: #CBF86D;
+    border-radius: 40px;
+}
+
+.more-than-a-woman > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.section-two{
+    display: flex;
+    gap: 2rem;
+    margin:  4rem;
+}
+
+.atom-stretch{
+    font-family: 'Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 63px;
+/* text-align: center; */
+
+color: #222222;
+}
+
+.designed{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+margin: 3rem 0 ;
+/* or 140% */
+
+
+color: #222222;
+}
+
+.grid-box{
+    width: 616px;
+height: 386px;
+
+background: #F3F3F3;
+border-radius: 24px;
+}
+.grid-box > img{
+    padding: 5rem 0 1rem 0;
+    margin: 0 auto;
+    display: flex;
+}
+.grid-box > div > p{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+color: #222222;
+}
+
+.grid-box > div > div{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+/* text-align: center; */
+
+color: #6A6A6A;
+display: flex;
+gap: 13.7rem;
+
+}
+
+.grid-box > div{
+    margin: 0 2rem;
+}
+.grid-box1 > img{
+    padding: 7rem 0 3.8rem 0;
+}
+
+.grid-box1 > div > div{
+    gap: 10rem;
+}

@@ -1,0 +1,114 @@
+footer{
+    background: #111111;
+    color: #fff;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+padding: 0 4rem;
+}
+
+.logo-footer{
+    font-size: 40px;
+    padding: 3rem 0;
+}
+
+
+.footer-grid{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-content: center;
+    align-items:center;
+}
+
+.first-grid{
+    width: 310px;
+    margin-top: -14.2rem;
+}
+.first-grid p{
+    margin-bottom: 2rem;
+}
+
+input{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 58px 16px 30px;
+gap: 10px;
+color: #fff;
+width: 299px;
+height: 48px;
+position: relative;
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+font-family: 'Helvetica';
+
+font-size: 16px;
+background-color: #111111;
+outline: 0;
+}
+
+
+input::placeholder{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+
+input::selection{
+    color: #00c2f8;
+}
+form{
+    position: relative;
+}
+.fa-solid{
+    
+    position: absolute;
+    left: 15.72rem;
+    cursor: pointer;
+    margin-top: -3rem;
+}
+.subgrid{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.fifth-grid{
+    justify-items: center;
+    display: block;
+}
+
+
+.third-grid{
+    margin-top: -5.5rem;
+}
+
+
+.big{
+    font-size: 20px;
+    padding: 0 0 2rem;
+}
+
+
+
+
+
+.second-grid, .third-grid, .fourth-grid, .fifth-grid{
+    line-height: 2.6rem;
+}
+
+.last-child{
+    display: flex;
+    padding: 2rem 0 1rem;
+    gap: 4rem;
+}
+
+ .second-grid p, .third-grid p, .fourth-grid p, .fifth-grid p{
+    cursor: pointer;
+}
+
+footer svg{
+    cursor: pointer;
+}
