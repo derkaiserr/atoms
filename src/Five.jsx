@@ -19,11 +19,13 @@ export default function Five(){
             </section>
 
             <section className="section-two">
-                <div>
+                <div className="atom-two">
                     <p className="atom-stretch">Atoms Stretch Laces & Masks</p>
                     <p className="designed">Designed by Atoms, with premium, durable and environmentally friendly materials.</p>
 
                 </div>
+                <div className="mini-grid">
+
                 <div className="grid-box1 grid-box">
                 <img src={lace} alt="lace" />
                 <div>
@@ -42,6 +44,7 @@ export default function Five(){
                         <p>Black</p>
                         <p>$15</p>
                     </div>
+                </div>
                 </div>
                 </div>
             </section>

@@ -30,7 +30,11 @@ function App() {
      <Sectionone />
     <section className='cards'>{cards}</section>
     <Three />
-    <section className='cards'>{cardss}</section>
+    <div className='exp'>Explore Model 000</div>
+    <section  className='cards'>
+      
+      
+      {cardss}</section>
     <Five />
     <Six />
     <Footer />

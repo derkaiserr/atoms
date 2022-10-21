@@ -27,7 +27,8 @@
 
 .levitate{
     animation: levitating 3.7s infinite ease-in-out alternate;
-    /* animation-delay: 0.3s; */
+    display: flex;
+    width: 25vw;
 }
 .first{
     background: #F1F1F1;
@@ -40,7 +41,7 @@
     font-family: 'Garamond';
 font-style: normal;
 font-weight: 400;
-font-size: 80px;
+font-size: 6vw;
 
 }
 
@@ -48,7 +49,7 @@ font-size: 80px;
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.5vw;
     line-height: 28px;
     /* or 140% */
     
@@ -87,7 +88,7 @@ border-radius: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 6rem 10rem 3rem;
+    padding: 6rem 8vw 3rem;
     gap: 3rem;
 }
 .second > p{
@@ -106,8 +107,10 @@ color: #222222;
 .second .images{
     display: flex;
     justify-content: center;
-    gap: 8rem;
+    gap: 8vw;
     padding: 2rem 0 2rem;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .the-best{
@@ -171,3 +174,104 @@ margin: 2rem 0 0;
 color: #6A6A6A;
 }
 
+.paragraph{
+    width: 437px;
+height: 40px;
+margin: auto 4rem;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+
+color: #222222;
+}
+
+
+@media screen and (max-width: 1040px) {
+    .third{
+        display: block;
+    }
+    .copper{
+        line-height: 3rem;
+    }
+
+    .third > img{
+        width: 100%;
+        margin: 4vh 0;
+    }
+
+    .midsole{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5rem 5vw 2rem;
+    }
+
+    .comfort{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #designed{
+        line-height: 1rem;
+        margin: 1.1rem 0 0 0;
+    }
+
+    .paragraph{
+        font-size: 5vw;
+        width: fit-content;
+        margin: 0 4vw;
+    }
+
+    .third{
+        margin: 0 4vw;
+        padding: 0;
+    }
+    .third > img{
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .tie, .copper{
+        font-size: 9vw;
+    }
+
+    .midsole{
+        margin: 1rem 0 0 0;
+    }
+    .whole{
+        font-size: 7vw;
+    }
+
+    .the-best{
+        margin: 1rem 4vw 1rem;
+        padding: 0;
+        font-size: 8vw;
+    }
+
+
+    .second{
+        margin: 1rem 4vw;
+    }
+
+
+    .second > p{
+        font-size: 5vw;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    #designed{
+        font-size: 2.7vw;
+    }
+}

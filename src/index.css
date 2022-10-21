@@ -7,3 +7,10 @@
 button{
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 640px) {
+  body{
+    width: 100%;
+  }
+}

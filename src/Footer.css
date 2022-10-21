@@ -1,10 +1,10 @@
 footer{
-    background: #111111;
+    background: #000;
     color: #fff;
     font-family: 'Helvetica';
 font-style: normal;
 font-weight: 400;
-padding: 0 4rem;
+padding: 0 6vw;
 }
 
 .logo-footer{
@@ -14,17 +14,29 @@ padding: 0 4rem;
 
 
 .footer-grid{
-    display: flex;
+    display: grid;
     flex-direction: row;
-    gap: 4rem;
-    align-content: center;
-    align-items:center;
+    grid-template-columns: 30vw 11vw 11vw 11vw 8vw;
+    gap: 3vw;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    align-items:flex-start;
+    align-content: flex-start;
 }
 
-.first-grid{
-    width: 310px;
-    margin-top: -14.2rem;
+.footer-grid > div{
+    gap: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
+
+.footer-grid > div > p{
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+
 .first-grid p{
     margin-bottom: 2rem;
 }
@@ -33,10 +45,10 @@ input{
     display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 16px 58px 16px 30px;
+padding: 16px 48px 16px 30px;
 gap: 10px;
 color: #fff;
-width: 299px;
+width: 100%;
 height: 48px;
 position: relative;
 border: 1px solid #FFFFFF;
@@ -44,7 +56,7 @@ border-radius: 50px;
 font-family: 'Helvetica';
 
 font-size: 16px;
-background-color: #111111;
+background-color: #000;
 outline: 0;
 }
 
@@ -65,25 +77,25 @@ form{
 .fa-solid{
     
     position: absolute;
-    left: 15.72rem;
+    /* margin-left: 16.7rem; */
+    right: 0.4rem;
     cursor: pointer;
-    margin-top: -3rem;
+    margin-top: -2.50rem;
 }
 .subgrid{
     display: flex;
-    gap: 1rem;
+    gap: 1.3vw;
     align-items: center;
 }
 
 .fifth-grid{
     justify-items: center;
     display: block;
+    margin-top: 4rem;
 }
 
 
-.third-grid{
-    margin-top: -5.5rem;
-}
+
 
 
 .big{
@@ -96,13 +108,21 @@ form{
 
 
 .second-grid, .third-grid, .fourth-grid, .fifth-grid{
-    line-height: 2.6rem;
+    line-height: 1.3rem;
+    display: flex;
 }
 
 .last-child{
     display: flex;
-    padding: 2rem 0 1rem;
-    gap: 4rem;
+    padding: 2rem 0 1.5rem;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    font-size: 1.4vw;
+}
+
+.last-child p{
+    display: flex;
+    flex-wrap: nowrap;
 }
 
  .second-grid p, .third-grid p, .fourth-grid p, .fifth-grid p{
@@ -111,4 +131,31 @@ form{
 
 footer svg{
     cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 1040px) {
+    .footer-grid{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 17vw;
+        justify-content: space-around;
+
+    }
+
+    .first-grid{
+        width: 80vw;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 780px) {
+    .last-child{
+        font-size: 2vw;
+    }
+    
 }

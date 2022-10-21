@@ -9,3 +9,28 @@
 .cards::-webkit-scrollbar{
   display: none;
 }
+
+
+.exp{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+/* text-align: center; */
+margin: 4rem 4rem -1rem;
+color: #222222;
+}
+
+@media screen and (max-width: 640px) {
+  .cards{
+    margin: 2rem 4vw;
+  }
+
+  .exp{
+    font-size: 5vw;
+    margin: 5rem 4vw -1rem;
+  }
+}

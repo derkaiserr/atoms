@@ -8,13 +8,15 @@ import esquire from "./Images/Esquire.svg"
 import humans from "./Images/Frame 15.svg"
 
 export default function One(){
+
+    console.log(window.innerWidth)
     return(
         <div>
             <section className="first">
                 <p className="comfort">Comfort & magic awaits Everyday</p>
                 <img className="levitate" src={shoe} alt="" />
                 <div>
-                <p>Designed for the way you live your life. Atoms are beautiful in their simplicity, supporting your feet with absolute comfort.</p>
+                <p id="designed">Designed for the way you live your life. Atoms are beautiful in their simplicity, supporting your feet with absolute comfort.</p>
                 <button>Shop</button>
                 </div>
             </section>

@@ -1,9 +1,13 @@
 .firstt{
     background-color: transparent;
-    height: 690px;
+    /* height: 690px; */
     display: flex;
+    /* width: 100%; */
+    /* justify-content: space-between; */
     margin: 2rem 4rem;
-    gap: 1rem;
+    gap: 2vw;
+    max-height: 630px;
+    /* gap: 1rem; */
 }
 
 
@@ -11,43 +15,51 @@
     font-family: 'Helvetica';
 font-style: normal;
 font-weight: 400;
-font-size: 54px;
-line-height: 60px;
+font-size: 4vw;
+line-height: 4vw;
 /* or 111% */
-
-text-align: justify;
+word-spacing: -0.1rem;
+text-align: left;
 margin: auto 4rem 3rem;
 }
 
 .response{
     font-family: 'Helvetica';
-font-style: normal;
+    font-style: normal;
+    word-spacing: -0.1rem;
 font-weight: 400;
-font-size: 38px;
-line-height: 54px;
+font-size: 3vw;
+line-height: 3vw;
 margin: auto 4rem;
 }
 .man{
-    height: 690px;
+    /* height: 690px; */
+    /* height: 100%; */
+    width: 30vw;
 }
 
 
 .man-shoe{
-    width: 55vw;
+    width: 55%;
     display: flex;
-   margin: 3rem auto 1rem;
+    
+   margin: 5% auto 10%;
 }
 
 .section{
-    padding: 7rem 0 0 0;
+    padding: 7% 0 0 0;
     background: #F2F2F2;
     border-radius: 30px;
+    width: 69%;
 }
 .section > div{
     display: grid;
-    grid-template-columns: 19% 55% 10%;
-    justify-content: start;
-    gap: 1.5rem;
+    /* justify-content: space-between; */
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    gap: 18vw;
+    align-items: center;
+    
     margin: 3rem 2rem 0;
 }
 
@@ -55,8 +67,9 @@ margin: auto 4rem;
     font-family: 'Helvetica';
 font-style: normal;
 font-weight: 400;
-font-size: 28px;
+font-size: 2.5vw;
 line-height: 40px;
+min-width: 5rem;
 /* identical to box height, or 143% */
 
 
@@ -79,15 +92,15 @@ color: #6A6A6A;
 
 
 
-.grid > p{
+.before-one{
 
     font-family: 'Helvetica';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 16px;
 line-height: 24px;
 /* or 133% */
-
+padding: 2rem;
 text-align: justify;
 
 color: #222222;
@@ -105,11 +118,51 @@ text-align: center;
 
 color: #173003;
 
-padding: 20px 48px;
+padding: 7% 13%;
 margin:0 auto auto;
 border: none;
 
 background: #CBF86D;
 border-radius: 40px;
 
+}
+
+
+@media screen and (max-width: 640px) {
+    .firstt{
+        display: block;
+        /* width: 100%; */
+        margin: auto 4vw 66vh;
+    }
+    
+    .firstt > img{
+        display: block;
+        width: 100%;
+        padding: 2rem 0vw;
+    }
+
+    .section{
+        margin: auto 0vw;
+        width: 100%;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+        align-items: center;
+
+    }
+    .grid > button{
+        margin: 2vh 0 0 0;
+    }
+
+    .based-in{
+        margin: 2rem 4vw;
+        line-height: 6vw;
+    }
+
+    .response{
+        margin: 1rem 4vw;
+        line-height: 5vw;
+    }
 }

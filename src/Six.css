@@ -1,7 +1,9 @@
 
 
 
-
+.width{
+    width: 100%;
+}
 
 .everyday{
     
@@ -29,13 +31,33 @@ font-size: 20px;
     display: flex;
     justify-content: center;
     /* width: 100%; */
-    margin: 0 4rem 5rem;
-    gap: 1rem;
+    margin: 0 3rem 5rem;
+    gap: 1vw;
 }
 
 .insta img{
-    width: 248px;
-    height: 248px;
+    width: 21%;
+
+    max-height: 190px;
     border-radius: 24px;
 }
 
+
+
+@media screen and (max-width: 840px) {
+    .insta img{
+        width: 20rem;
+    }
+
+    .insta{
+        overflow-x: scroll;
+        justify-content: flex-start;
+        gap: 1rem;
+        scroll-behavior: smooth;
+        margin: 0 5vw 5rem;
+    }
+
+    .insta::-webkit-scrollbar{
+        display: none;
+    }
+}

@@ -27,9 +27,9 @@ export default function Three(){
             <p id="model">Model 000</p>
             <p id="grey">Grey</p>
             </div>
-            <p>Before One there was Zero- Model 000, that is. Our best-selling sneaker is tuned for extreme comfort. It’s like wearing your favourite T-shirt but these shoes look as sharp as a blazer. And it comes in 6 colours and 47 sizes.</p>
             <button>Shop</button>
         </div>
+            <p className="before-one">Before One there was Zero- Model 000, that is. Our best-selling sneaker is tuned for extreme comfort. It’s like wearing your favourite T-shirt but these shoes look as sharp as a blazer. And it comes in 6 colours and 47 sizes.</p>
         </div>
     </section>
         </div>

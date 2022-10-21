@@ -1,12 +1,17 @@
 .more-than-a-woman{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
     gap: 2rem;
     margin:  4rem;
 }
 .more-than-a-woman img{
     border-radius: 30px;
+    flex: 30%;
+    display: flex;
+    width: 35%;
+    /* height: 100%; */
 }
 
 .read{
@@ -14,16 +19,16 @@
 font-family: 'Garamond';
 font-style: normal;
 font-weight: 400;
-font-size: 56px;
-line-height: 50px;
-margin: 0 0 4.8rem;
+font-size: 4vw;
+line-height: 95%;
+/* margin: 0 0 4.8rem; */
 }
 
 .from{
     font-family: 'Helvetica';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 1.5vw;
 line-height: 28px;
 
 }
@@ -41,7 +46,7 @@ line-height: 28px;
     color: #173003;
     
     padding: 20px 48px;
-    margin: 4.8rem 0 auto;
+    /* margin: 4.8rem 0 auto; */
     border: none;
     
     background: #CBF86D;
@@ -53,6 +58,8 @@ line-height: 28px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    gap: 1rem;
+    /* flex: 65%; */
 }
 
 
@@ -62,12 +69,16 @@ line-height: 28px;
     margin:  4rem;
 }
 
+.atom-two{
+    max-width: 30vw;
+}
+
 .atom-stretch{
     font-family: 'Garamond';
 font-style: normal;
 font-weight: 400;
-font-size: 56px;
-line-height: 63px;
+font-size: 3.5vw;
+line-height: 3.5vw;
 /* text-align: center; */
 
 color: #222222;
@@ -77,33 +88,46 @@ color: #222222;
     font-family: 'Helvetica';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-margin: 3rem 0 ;
+font-size: 2vw;
+line-height: 2.5vw;
+margin: 3rem 0;
+width: 100%;
 /* or 140% */
 
 
 color: #222222;
 }
 
-.grid-box{
-    width: 616px;
-height: 386px;
+.mini-grid{
+    justify-content: space-around;
+    gap: 5%;
+    display: flex;
+    margin: 0 3rem;
+    scroll-behavior: smooth;
+    /* overflow: auto; */
+}
 
-background: #F3F3F3;
-border-radius: 24px;
+.grid-box{
+    min-width: 60%;
+    max-width: 80%;
+    /* max-height: 386px; */
+    padding: 8% 0 3%;
+    background: #F3F3F3;
+    border-radius: 24px;
 }
 .grid-box > img{
-    padding: 5rem 0 1rem 0;
+    /* padding: 20% 0 5% 0; */
     margin: 0 auto;
     display: flex;
+    width: 60%;
+    cursor: pointer;
 }
 .grid-box > div > p{
     font-family: 'Helvetica';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
-line-height: 40px;
+font-size: 2vw;
+line-height: 3vw;
 color: #222222;
 }
 
@@ -111,7 +135,7 @@ color: #222222;
     font-family: 'Helvetica';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 1.5vw;
 line-height: 20px;
 /* identical to box height, or 125% */
 
@@ -119,7 +143,8 @@ line-height: 20px;
 
 color: #6A6A6A;
 display: flex;
-gap: 13.7rem;
+gap: 70%;
+width: 100%;
 
 }
 
@@ -127,9 +152,105 @@ gap: 13.7rem;
     margin: 0 2rem;
 }
 .grid-box1 > img{
-    padding: 7rem 0 3.8rem 0;
+    padding: 7% 0 11% 0;
 }
 
 .grid-box1 > div > div{
-    gap: 10rem;
+    gap: 45%;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .section-two{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 4rem 4vw;
+        /* overflow-x: scroll; */
+        /* justify-content: space-around; */
+        /* align-items: center; */
+    }
+
+    .grid-box{
+        width: 315px;
+        /* height: 316px; */
+        justify-content: space-around;
+        align-items: baseline;
+        flex-direction: column;
+    }
+
+    .atom-two{
+        max-width: 100%;
+      
+    }
+    .grid-box img{
+        width: 100%;
+
+    }
+
+    .atom-stretch{
+           font-size: 9.5vw; 
+           line-height: 10vw;
+           width: 100%;
+    }
+
+    .designed{
+        font-size: 6.7vw;
+        line-height: 7vw;
+    }
+
+    .mini-grid{
+        /* width: 150%; */
+        overflow-x: scroll;
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .mini-grid::-webkit-scrollbar{
+        display: none;
+    }
+
+    .grid-box > div > p{
+        font-size: 16px;
+    }
+    .grid-box2 > img{
+        width: 83%;
+    }
+
+    
+    .grid-box > div > div{
+        font-size: 13px;
+        word-wrap: normal;
+    }
+
+
+    .more-than-a-woman{
+        display: block;
+        margin: 4rem 4vw;
+    }
+    .more-than-a-woman > img{
+        width: 100%;
+    }
+    
+    .read{
+        font-size: 5vw;
+        margin: 1rem 1vw;
+        text-align: justify;
+
+    }
+
+    .from{
+        font-size: 3vw;
+        margin: 0rem 1vw;
+    }
+
+    .more-than-a-woman > div > button{
+        margin: 0 auto;
+    }
+
+
+    
+
+
 }

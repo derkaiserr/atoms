@@ -10,15 +10,15 @@ import five from "./Images/assets_a12f8232201349c391f4feed87a4d995_7234b613a18a4
 
 export default function Six (){
     return(
-        <div>
+        <div className="width">
             <p className="everyday common">Atoms in Everyday</p>
             <p className="link common">@atoms</p>
             <div className="insta">
-            <img src={one} alt="" />
-            <img src={two} alt="" />
-            <img src={three} alt="" />
-            <img src={four} alt="" />
-            <img src={five} alt="" />
+            <img src={one} alt="first pic" />
+            <img src={two} alt="second pic" />
+            <img src={three} alt="third pic" />
+            <img src={four} alt="fourth pic" />
+            <img src={five} alt="fifth pic" />
             </div>
         </div>
     )
