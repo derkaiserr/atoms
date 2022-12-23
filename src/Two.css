@@ -75,13 +75,14 @@ left: 1.5rem;
 
 @media screen and (max-width: 640px) {
     .one{
-        width: 65vw;
-        height: 31vh;
+        width: 70vw;
+        height: 40vh;
     }
     .one > img{
         width: 15rem;
-        height: 5rem;
-        margin: 5rem 0 1rem;
+        height: 8rem;
+
+        margin: 5rem auto 1rem;
     }
 
 
