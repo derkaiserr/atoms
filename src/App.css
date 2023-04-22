@@ -22,16 +22,44 @@ line-height: 40px;
 /* text-align: center; */
 margin: 4rem 4rem -1rem;
 color: #222222;
+display: block;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 460px) {
   .cards{
     margin: 2rem 4vw;
   }
 
   .exp{
     font-size: 5vw;
-    margin: 0 4vw -1rem;
-    padding: 4rem 0 0;
+    margin: 0rem 4vw -1rem;
+    padding: 15rem 0 0;
   }
 }
+
+@media screen and (min-width: 541px) and ( max-width: 640px) {
+  
+  .exp{
+    padding: 28rem 0 0 0;
+    margin: 0 1rem -1rem;
+    
+  }
+  .cards{
+    margin: 2rem 1rem;
+  }
+}
+
+@media screen and (min-width: 461px) and ( max-width: 540px) {
+  
+  .exp{
+  margin: 0 1rem -1rem;
+  padding: 21rem 0 0 0;
+
+}
+
+.cards{
+  margin: 2rem 1rem;
+}
+
+}
+

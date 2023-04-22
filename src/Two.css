@@ -73,10 +73,10 @@ left: 1.5rem;
 }
 
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 480px) {
     .one{
         width: 71vw;
-        height: 40vh;
+        height: 20rem;
     }
     .one > img{
         width: 15rem;
@@ -91,14 +91,14 @@ left: 1.5rem;
     }
 
     .name-model{
-        font-size: 3.4vw;
+        font-size: 19px;
     }
 }
 
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 500px) {
     .one{
         width: 100%;
-        height: 49vh;
+        height: 19rem;
     }
     .one > img{
         width: 11rem;

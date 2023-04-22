@@ -149,6 +149,7 @@ border-radius: 40px;
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 1rem;
+        margin-bottom: 20rem;
         align-items: center;
 
     }
