@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dotenv": "^6.2.0",
+"dotenv-expand": "4.2.0"
+
   },
   "dependencies": {
     "react": "^18.2.0",

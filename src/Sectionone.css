@@ -114,12 +114,11 @@ color: #222222;
 }
 
 .the-best{
-    width: 318px;
+    width: 400px;
 height: 80px;
-
 font-family: 'Helvetica';
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 24px;
 line-height: 40px;
 /* or 167% */
@@ -146,6 +145,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 48px;
 line-height: 40px;
+
 /* or 83% */
 
 
@@ -196,7 +196,15 @@ color: #222222;
     .copper{
         line-height: 3rem;
     }
+    .the-best{
+       height: 2vh;
+       width: 90%;
+       margin: 0 0rem 2rem 0;
+    }
 
+    .whole{
+        margin: 0 0 1rem 0;
+    }
     .third > img{
         width: 100%;
         margin: 4vh 0;
@@ -215,7 +223,9 @@ color: #222222;
         justify-content: center;
         margin: 5rem 5vw 2rem;
     }
-
+    .first button{
+        transform: scale(0.7);
+    }
     .comfort{
         margin: 0 auto;
         text-align: center;
@@ -250,12 +260,13 @@ color: #222222;
     }
     .whole{
         font-size: 7vw;
+        margin: 2.2rem 0 0 0;
     }
 
     .the-best{
-        margin: 1rem 4vw 1rem;
-        padding: 0;
-        font-size: 8vw;
+        margin: 1rem 4vw 4rem;
+        padding: 0 0;
+        font-size: 5vw;
     }
 
 
@@ -273,5 +284,27 @@ color: #222222;
 
     #designed{
         font-size: 2.7vw;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5rem 5vw 2rem;
+    }
+
+    #designed{
+      
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 630px) {
+
+    #designed{
+        font-size: 18px;
     }
 }
